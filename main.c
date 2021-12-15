@@ -20,7 +20,7 @@ int main()
     char data_month[12][1024];
     char text_expenses[12][1024];
     int data_expenses[12];
-    char sub_text[3];
+
     FILE* fp = fopen("C:\\Users\\USER\\C\\C\\SVG_CHART_PROJECT\\data.csv", "r");
   
     if (!fp)
